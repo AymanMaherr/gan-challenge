@@ -1,0 +1,22 @@
+<div>
+  <div class='card__wrapper'>
+    <div class="card space">
+      <div class="card__hover">
+        <img class="card__avatar" src={{cd.cover}} alt="cd cover" />
+      </div>
+      <div class="card__details">
+        <p>Name: {{cd.name}}</p>
+        <p>Price: {{cd.price}}$</p>
+        <p>Category: {{cd.category}}</p>
+        <p>Release date: {{dateString}}</p>
+        <button (click)='handleItemPrsenceCart()'>
+          @if(cd.in_cart){
+          remove from cart
+          } @else {
+          add to cart
+          }
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
