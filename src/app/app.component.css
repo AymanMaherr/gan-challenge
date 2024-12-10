@@ -1,0 +1,11 @@
+main {
+  block-size: 100%;
+  max-inline-size: 1100px;
+  margin: 0px auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
