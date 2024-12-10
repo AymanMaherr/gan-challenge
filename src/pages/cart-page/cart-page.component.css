@@ -1,0 +1,47 @@
+section {
+  block-size: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  flex-direction: column;
+
+  @media only screen and (min-width: 500px) {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.cart__container {
+  block-size: 80%;
+  inline-size: 80%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.cart__item-width {
+  inline-size: 80%;
+}
+
+.items {
+  block-size: 90%;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 3px;
+}
+
+.total {
+  block-size: 9%;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+hr {
+  margin: 0;
+}

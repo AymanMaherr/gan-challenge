@@ -1,0 +1,21 @@
+<section>
+  <div>
+    <a routerLink='/'>Back</a>
+  </div>
+  <div class='cart__container'>
+    <div class='cart__item-width'>
+      <div class='items'>
+        @for(cd of cartData; track cd.id){
+        <app-cart-item-card [cd]='cd' (deleteFromCart)='deleteItemFromCart($event)' />
+        } @empty {
+        <p> Cart is currently empty </p>
+        }
+      </div>
+      <hr />
+      <div class='total'>
+        <p>Total</p>
+        <p>{{cartTotal}} $</p>
+      </div>
+    </div>
+  </div>
+</section>
