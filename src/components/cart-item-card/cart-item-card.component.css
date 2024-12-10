@@ -1,0 +1,38 @@
+.item__container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 8px;
+  inline-size: 100%;
+
+  @media only screen and (min-width: 500px) {
+    block-size: 80px;
+  }
+}
+
+.item__description {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 5px;
+}
+
+.item__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
+}
+
+.item__price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+
+img {
+  block-size: 100%;
+  inline-size: 100%;
+  object-fit: contain;
+}

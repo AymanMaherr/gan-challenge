@@ -1,0 +1,17 @@
+<div class="item__container">
+  <div class="item__description">
+    <div class="item__details">
+      <p>Name: {{cd.name}}</p>
+      <p>Category: {{cd.category}}</p>
+      <p>Release date: {{dateString}}</p>
+    </div>
+    <div class="item__avatar">
+      <img src={{cd.cover}} alt="cd cover" />
+    </div>
+  </div>
+  <div class="item__price">
+    <p>Price: {{cd.price}}$</p>
+    <button (click)='handleDeleteFromCart()'>delete</button>
+  </div>
+
+</div>
