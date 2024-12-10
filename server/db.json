@@ -1,0 +1,185 @@
+{
+  "cds": [
+    {
+      "id": "1",
+      "cover": "https://picsum.photos/id/21/200/300",
+      "name": "love",
+      "price": 25,
+      "category": "jazz",
+      "release_date": 1055635200000,
+      "in_cart": false
+    },
+    {
+      "id": "2",
+      "cover": "https://picsum.photos/id/25/200/300",
+      "name": "nature",
+      "price": 28,
+      "category": "jazz",
+      "release_date": 1004655600000,
+      "in_cart": false
+    },
+    {
+      "id": "3",
+      "cover": "https://picsum.photos/id/32/200/300",
+      "name": "memories",
+      "price": 35,
+      "category": "jazz",
+      "release_date": 1090972800000,
+      "in_cart": false
+    },
+    {
+      "id": "4",
+      "cover": "https://picsum.photos/id/41/200/300",
+      "name": "droplets",
+      "price": 29,
+      "category": "jazz",
+      "release_date": 1110326400000,
+      "in_cart": false
+    },
+    {
+      "id": "5",
+      "cover": "https://picsum.photos/id/50/200/300",
+      "name": "sea",
+      "price": 20,
+      "category": "rock",
+      "release_date": 1139616000000,
+      "in_cart": false
+    },
+    {
+      "id": "6",
+      "cover": "https://picsum.photos/id/56/200/300",
+      "name": "lights",
+      "price": 52,
+      "category": "rock",
+      "release_date": 1173657600000,
+      "in_cart": false
+    },
+    {
+      "id": "7",
+      "cover": "https://picsum.photos/id/57/200/300",
+      "name": "city",
+      "price": 50,
+      "category": "rock",
+      "release_date": 1208217600000,
+      "in_cart": false
+    },
+    {
+      "id": "8",
+      "cover": "https://picsum.photos/id/58/200/300",
+      "name": "hope",
+      "price": 15,
+      "category": "rock",
+      "release_date": 1242432000000,
+      "in_cart": false
+    },
+    {
+      "id": "9",
+      "cover": "https://picsum.photos/id/63/200/300",
+      "name": "morning",
+      "price": 65,
+      "category": "country",
+      "release_date": 1276732800000,
+      "in_cart": false
+    },
+    {
+      "id": "10",
+      "cover": "https://picsum.photos/id/70/200/300",
+      "name": "fog",
+      "price": 75,
+      "category": "country",
+      "release_date": 1310947200000,
+      "in_cart": false
+    },
+    {
+      "id": "11",
+      "cover": "https://picsum.photos/id/103/200/300",
+      "name": "relax",
+      "price": 73,
+      "category": "country",
+      "release_date": 1345334400000,
+      "in_cart": false
+    },
+    {
+      "id": "12",
+      "cover": "https://picsum.photos/id/112/200/300",
+      "name": "nostalgia",
+      "price": 71,
+      "category": "country",
+      "release_date": 1411171200000,
+      "in_cart": false
+    },
+    {
+      "id": "13",
+      "cover": "https://picsum.photos/id/113/200/300",
+      "name": "caffine",
+      "price": 23,
+      "category": "pop",
+      "release_date": 1445385600000,
+      "in_cart": false
+    },
+    {
+      "id": "14",
+      "cover": "https://picsum.photos/id/116/200/300",
+      "name": "gladiator",
+      "price": 12,
+      "category": "pop",
+      "release_date": 1479772800000,
+      "in_cart": false
+    },
+    {
+      "id": "15",
+      "cover": "https://picsum.photos/id/121/200/300",
+      "name": "mountains",
+      "price": 16,
+      "category": "pop",
+      "release_date": 1513987200000,
+      "in_cart": false
+    },
+    {
+      "id": "16",
+      "cover": "https://picsum.photos/id/155/200/300",
+      "name": "lanes",
+      "price": 77,
+      "category": "pop",
+      "release_date": 1516752000000,
+      "in_cart": false
+    },
+    {
+      "id": "17",
+      "cover": "https://picsum.photos/id/185/200/300",
+      "name": "walk",
+      "price": 59,
+      "category": "blues",
+      "release_date": 1551052800000,
+      "in_cart": false
+    },
+    {
+      "id": "18",
+      "cover": "https://picsum.photos/id/244/200/300",
+      "name": "waiting",
+      "price": 63,
+      "category": "blues",
+      "release_date": 1585180800000,
+      "in_cart": false
+    },
+    {
+      "id": "19",
+      "cover": "https://picsum.photos/id/185/200/300",
+      "name": "gas",
+      "price": 60,
+      "category": "blues",
+      "release_date": 1619481600000,
+      "in_cart": false
+    },
+    {
+      "id": "20",
+      "cover": "https://picsum.photos/id/248/200/300",
+      "name": "gas",
+      "price": 70,
+      "category": "blues",
+      "release_date": 1651363200000,
+      "in_cart": false
+    }
+  ],
+  "cart": []
+}
