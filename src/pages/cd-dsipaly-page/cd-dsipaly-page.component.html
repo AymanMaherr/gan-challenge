@@ -1,0 +1,32 @@
+<div>
+  <div class="filter">
+    <div class="filter__dropdown">
+      <label for="category">Choose music category</label>
+      <select name='category' id='category' (change)='handleCategoryChange($event)'>
+        <option value="">All</option>
+        <option value="jazz">Jazz</option>
+        <option value="pop">Pop</option>
+        <option value="rock">Rock</option>
+        <option value="country">Country</option>
+        <option value="blues">Blues</option>
+      </select>
+    </div>
+    <div class="filter__dropdown">
+      <label for="sort">Sort the cds</label>
+      <select name='sort' id='sort' (change)='handleSortingChange($event)'>
+        <option value="">Sort by</option>
+        <option value="heighest">Price from high to low</option>
+        <option value="lowest">Price from low to high</option>
+        <option value="oldest">Oldest</option>
+        <option value="newest">Newest</option>
+      </select>
+    </div>
+  </div>
+</div>
+<section>
+  @for(cd of cdsData; track cd.id){
+  <app-card [cd]='cd' (addToCart)="handleCdInCart($event)" />
+  } @empty {
+  <p>No data </p>
+  }
+</section>

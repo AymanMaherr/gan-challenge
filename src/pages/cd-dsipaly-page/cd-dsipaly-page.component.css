@@ -1,0 +1,17 @@
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter__dropdown {
+  display: flex;
+  flex-direction: column;
+  inline-size: 20%;
+  gap: 5px;
+}
