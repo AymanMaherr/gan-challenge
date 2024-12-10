@@ -4,56 +4,38 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 
 ## Development server
 
-To start a local development server, run:
+To install project, run:
 
 ```bash
-ng serve
+npm install
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+To start server for the data base which will run on http://localhost:3000/, run:
 
 ```bash
-ng generate component component-name
+npm run server
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+To start the application, run:
 
 ```bash
-ng generate --help
+npm start
 ```
 
-## Building
+Once the server is running, open your browser and navigate to `http://localhost:4200/`.
 
-To build the project run:
+## The application is a poc with angular for a cds store
 
-```bash
-ng build
-```
+The project is a cds online store where has 2 pages and is screen responsive.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+1. Home page:
+- display all available CDs with relevant information
+- Has a menu with Logo/Shop name + “My Cart”
+- the user can sort the CDs by price and release date
+- the user can filter by category
+- the user can add any CD to their cart
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+2. Cart page:
+- list all CDs added to the cart
+- the user can remove CDs from the cart
+- shows a calculated total for CDs in the cart
